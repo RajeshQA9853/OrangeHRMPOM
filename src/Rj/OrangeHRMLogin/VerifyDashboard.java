@@ -18,7 +18,7 @@ public class VerifyDashboard {
 	}
 	@FindBy(xpath="//*[@id=\\\"app\\\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")
 	WebElement actual;
-
+//I have checked and resolved the issues
 	public void verify() {
 		String e1 = "Dashboard";
 		 actual.getText();
